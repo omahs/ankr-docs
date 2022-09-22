@@ -533,20 +533,19 @@ module.exports =
   },
   gameSidebar: {
     'Game': [
-      'game/ankr-game',
+      'game/mirage-overview',
+      // 'game/ankr-game',
       {
-        'Ankr Unity SDK': [
-          'game/unity/about-unity',
+        'Mirage SDK: Unity': [
+          // 'game/unity/about-unity',
           'game/unity/setting-up',
           {
-             'Getting Started': [
-              'game/unity/getting-started/before-you-start',
+             'Get Started': [
               'game/unity/getting-started/connect-wallet',
             ],
           },
           {
-             'Interacting with Blockchain': [
-              'game/unity/interacting-with-blockchain/avialable-interfaces',
+             'Interact with Blockchain': [
               'game/unity/interacting-with-blockchain/interact-with-smart-contract',
               'game/unity/interacting-with-blockchain/mint-nft',
               'game/unity/interacting-with-blockchain/read-nft',
@@ -554,7 +553,7 @@ module.exports =
             ],
           },
           {
-             'How to': [
+             'How-To Guides': [
               'game/unity/how-tos/subscribe-game',
               'game/unity/how-tos/switch-to-webgl',
             ],
@@ -616,10 +615,10 @@ module.exports =
         ],
       },
       {
-        'Ankr Unreal SDK': [
-          'game/unreal/about-unreal',
+        'Mirage SDK: Unreal Engine': [
+          // 'game/unreal/about-unreal',
           {
-            'Setting up': [
+            'Set Up': [
               'game/unreal/setting-up-v4',
               'game/unreal/setting-up-v5',
             ],

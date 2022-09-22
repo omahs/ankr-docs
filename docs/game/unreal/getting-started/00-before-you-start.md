@@ -1,5 +1,5 @@
 ---
-title: Before Starting
+title: Before Start
 id: unreal-before
 ---
 # Before you start
@@ -9,7 +9,7 @@ id: unreal-before
 
 ## Components interaction
 
-AnkrSDK enables interacting with the blockchain for the latest Unreal Engine 5+.
+Mirage SDK enables interacting with the blockchain for the latest Unreal Engine 5+.
 
 The interaction components are the following:
 

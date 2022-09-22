@@ -1,22 +1,49 @@
 ---
-title: Setting Up
+title: Set Up
 id: setting-up
 ---
 
-# Setting up
+# Set up
 
 ## Installation
 
-1. Download ```AnkrSDK.unitypackage``` from the latest [release](https://github.com/Ankr-network/game-unity-sdk/releases).
+### Install via package
 
-2. In your Unity project, locate the ***Assets*** folder. 
+  1. Download `AnkrSDK.unitypackage` from the latest [release](https://github.com/Ankr-network/game-unity-sdk/releases).
 
-3. Drag the ```AnkrSDK.unitypackage``` into this folder.
+  2. Move the downloaded `AnkrSDK.unitypackage` package into your project's **Assets** folder.
 
-4. Select '*Import all*' to have access to all SDK capabilities.
+  3. Select **Import all** to enable using the full scope of SDK capabilities.
 
 ![Install SDK](@site/static/img/install-sdk.png)
 
+### Install via GitHub URL
+
+Prerequisites:
+
+  * Unity version that supports the `path` query parameter for git packages (Unity version `>= 2019.3.4f`1; Unity version `>= 2020.1a21`).
+
+Installation flow:
+
+  * Add the following URL to Package Manager:
+
+    https://github.com/Ankr-network/game-unity-sdk.git?path=Assets/AnkrSDK
+
+  ![Package Manager](../../../static/img/game/package-mngr.png)
+OR
+
+  * Add the following key-value pair to `Packages/manifest.json`:
+    ```shell
+    "com.ankr.ankrsdk": "https://github.com/Ankr-network/game-unity-sdk.git?path=Assets/AnkrSDK"
+    ```
+
+### Install via OpenUPM
+
+Install the package using [openupm-cli](https://github.com/openupm/openupm-cli) from [OpenUPM registry](https://openupm.com/packages/com.ankr.ankrsdk/):
+
+```shell
+openupm add com.ankr.ankrsdk
+```
 
 ## What's inside
 

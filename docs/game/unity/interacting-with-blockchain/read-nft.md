@@ -7,7 +7,7 @@ id: read-nft
 
 In this step, we want to check if the player owns any existing NFT characters. If they do, they can use them in the game. 
 
-### 👀 Example — read NFT data for a game character
+### Example: read a game character's NFT data
 
 1. To start first initialize the `SDKWrapper` to store contracts for use here inside some private variables. For this example we are using the ```GameCharacterContract``` used in the ```WearableNFTExample``` Use Case.
 

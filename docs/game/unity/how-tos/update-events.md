@@ -1,5 +1,5 @@
 ---
-title: Subscribe to events
+title: Subscribe to Events
 id: subscribe-game
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Mint a New NFT
+title: Mint New NFT
 id: mint-nft
 ---
 

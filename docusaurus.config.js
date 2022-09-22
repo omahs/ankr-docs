@@ -185,16 +185,16 @@
           position: 'right',
           items: [
             {
-              to: 'game/ankr-game',
+              to: 'game/mirage-overview',
               label: 'Overview',
             },
             {
-              to: 'game/unity/about-unity',
+              to: 'game/unity/setting-up',
               label: 'Unity SDK',
             },
             {
-              to: 'game/unreal/about-unreal',
-              label: 'Unreal SDK',
+              to: 'game/unreal/getting-started/unreal-before/',
+              label: 'Unreal Engine SDK',
             },
           ],
         },
